@@ -10,7 +10,7 @@ Honkit Automation Tool adalah alat yang dirancang untuk mengotomatiskan proses p
   
 ## Struktur Proyek: Proyek ini memiliki struktur sebagai berikut:
 
-```bash
+```node
 Honkit-Automation-Tool/
 ├── package.json
 ├── script/
