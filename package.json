@@ -1,0 +1,24 @@
+{
+  "name": "my-ebook",
+  "version": "1.0.0",
+  "description": "Proyek eBook otomatisasi dengan HonKit",
+  "main": "index.js",
+  "scripts": {
+    "numbering": "node script/add-numbering.js",
+    "summary": "node script/generate_summary.js",
+    "serve": "cd content && npx honkit serve",
+    "build": "node script/build.js",  
+    "start": "npm run build && npm run serve" 
+  },
+  "keywords": [
+    "honkit",
+    "ebook",
+    "automation"
+  ],
+  "author": "Nama Anda",
+  "license": "MIT",
+  "devDependencies": {
+    "honkit": "^3.3.1" 
+  }
+}
+

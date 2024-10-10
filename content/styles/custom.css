@@ -1,0 +1,77 @@
+/* Mengatur font untuk seluruh dokumen */
+body {
+    font-family: 'Times New Roman', serif;
+}
+
+/* Mengatur H1 agar berada di tengah */
+h1 {
+    text-align: center;
+}
+
+/* Jika Anda ingin menambahkan style tambahan untuk elemen lain, Anda bisa menambahkannya di bawah */
+h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', serif; /* Menggunakan Times New Roman untuk heading lain */
+}
+
+p {
+	font-family: 'Times New Roman', serif;
+
+}
+
+/* Gaya umum untuk blok kode */
+pre {
+    background-color: #282c34 !important; /* Warna latar belakang */
+    color: #abb2bf !important; /* Warna teks */
+    padding: 10px !important; /* Padding di sekitar teks */
+    border-radius: 5px !important; /* Sudut melengkung */
+    overflow: auto !important; /* Mengatasi overflow */
+}
+
+
+/* Gaya umum untuk blok kode */
+pre {
+    background-color: #2e2e2e !important; /* Warna latar belakang */
+    color: #ffffff !important; /* Warna teks */
+    padding: 15px !important; /* Padding di sekitar teks */
+    border-radius: 5px !important; /* Sudut melengkung */
+    overflow: auto !important; /* Mengatasi overflow */
+    font-family: 'Courier New', Courier, monospace; /* Font monospace */
+    font-size: 14px; /* Ukuran font */
+}
+
+/* Gaya untuk teks kode inline */
+code {
+    background-color: #44475a; 
+    color: #f8f8f2; 
+    padding: 2px 4px; 
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace; /* Font monospace */
+}
+
+/* Gaya untuk berbagai tipe sintaks */
+.keyword {
+    color: #ff79c6; /* Warna untuk keyword */
+    font-weight: bold; /* Cetak tebal */
+}
+
+.string {
+    color: #50fa7b; /* Warna untuk string */
+}
+
+.number {
+    color: #bd93f9; /* Warna untuk angka */
+}
+
+.comment {
+    color: #6272a4; /* Warna untuk komentar */
+    font-style: italic; /* Miring untuk komentar */
+}
+
+/* Tambahan untuk meningkatkan tampilan */
+blockquote {
+    border-left: 4px solid #6272a4; /* Garis samping untuk blockquote */
+    padding-left: 10px; /* Padding kiri */
+    color: #f8f8f2; /* Warna teks blockquote */
+    background-color: #2e2e2e; /* Warna latar belakang */
+}
+

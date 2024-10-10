@@ -1,0 +1,17 @@
+{
+    "title": "Judul eBook Anda",
+    "author": "Nama Penulis",
+    "language": "id",
+    "description": "Deskripsi singkat tentang eBook ini.",
+    "theme": "default",
+    "styles": {
+        "website": "styles/custom.css"
+    },
+    "content": [
+        "bab1/*.md",
+        "bab2/*.md"
+    ],
+    "copyright": "Hak cipta © Tahun Anda, Nama Penulis.",
+    "cover": "img/cover_depan.png"
+}
+
